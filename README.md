@@ -39,11 +39,11 @@ node scripts/generate.mjs --check  # 检查生成文件是否同步
 | 平台 | 交付内容 | 当前验证 |
 | --- | --- | --- |
 | Web / PWA | 可运行体验版 | 31 项核心、2 项原生词典、4 项服务测试；浏览器选词、方案、主题与键位编辑预览已验证 |
-| Windows | 独立原生 TSF 输入法与 Setup 安装器工程 | 37 项共享与序列化/服务测试通过；待云端编译和系统运行验证 |
+| Windows | 独立原生 TSF 输入法与 Setup 安装器工程 | 32/64 位服务与安装器云端编译通过；系统运行待验证 |
 | macOS | Rime 鼠须管方案与配色 | 文件已生成；尚未安装部署验证 |
 | Linux | Rime 方案 | 文件已生成；尚未安装部署验证 |
-| Android | Java 原生系统输入法工程 | 尚未编译、尚未真机验证 |
-| iOS / iPadOS | Swift 键盘扩展 + XcodeGen 工程定义 | 尚未编译、尚未真机验证 |
+| Android | Java 原生系统输入法工程 | 按用户要求暂缓构建 |
+| iOS / iPadOS | Swift 键盘扩展 + XcodeGen 工程定义 | iOS 模拟器编译通过；真机签名与运行待验证 |
 
 此版本是 **v0.1.0 开发原型**。452 条原创基础词条用于验证输入流程，覆盖远小于日常成熟输入法；词典组合不是统计语言模型。还没有成熟纠错、大词库、语音、手写、九宫格、跨设备同步或签名安装包。浏览器演示只能在页面里输入；系统级输入由各平台原生接入实现。Windows 主方案不需要小狼毫；Rime 配置作为可选兼容适配保留。
 
@@ -70,7 +70,7 @@ packages/schemes/         自动生成的八套双拼配置 JSON
 adapters/rime/            桌面全拼、八套双拼和配色示例
 scripts/                  本地服务、语法检查、跨端数据生成
 tests/                    核心行为测试
-.github/workflows/        核心检查、Android 和 iOS 构建流程
+.github/workflows/        核心检查、Windows 安装器和原生端构建流程
 ~~~
 
 阅读 [多端构建与安装](docs/PLATFORMS.md)、[架构说明](docs/ARCHITECTURE.md)、[贡献指南](CONTRIBUTING.md)、[路线图](docs/ROADMAP.md)。
@@ -81,4 +81,4 @@ tests/                    核心行为测试
 
 项目原创代码、图形和基础词库采用 [MIT License](LICENSE)。Windows 接入改造自微软 MIT SampleIME，许可与来源见 [第三方说明](THIRD_PARTY_NOTICES.md)。键位表按公开输入规则独立实现，来源与差异记录在 [方案文档](docs/SHUANGPIN.md)。Rime 等外部软件的许可各自独立，本项目没有打包它们的二进制或第三方大词库。
 
-本项目独立开发，与微信、腾讯及各方案对应厂商没有关联，不包含其代码、Logo 或专有素材。GitHub：[4444654/jiuyun-input](https://github.com/4444654/jiuyun-input)。独立 Windows 安装器和 Android APK 由 GitHub Actions 构建，下载以 [Releases](https://github.com/4444654/jiuyun-input/releases) 实际附件为准。尚未提交应用商店。
+本项目独立开发，与微信、腾讯及各方案对应厂商没有关联，不包含其代码、Logo 或专有素材。GitHub：[4444654/jiuyun-input](https://github.com/4444654/jiuyun-input)。独立 Windows 安装器由 GitHub Actions 构建；Android 暂缓打包，下载以 [Releases](https://github.com/4444654/jiuyun-input/releases) 实际附件为准。尚未提交应用商店。

@@ -38,6 +38,8 @@ jobs:
           name: jiuyun-windows-installer
           path: apps/windows/build/installer/*.exe
   android:
+    # Temporarily paused at the project owner's request.
+    if: false
     needs: core
     runs-on: ubuntu-latest
     steps:
@@ -69,7 +71,7 @@ jobs:
         working-directory: apps/ios
   release:
     if: github.event_name == 'workflow_dispatch'
-    needs: [windows, android]
+    needs: [windows]
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -87,4 +89,4 @@ jobs:
           if ! gh release view v0.1.0-preview >/dev/null 2>&1; then
             gh release create v0.1.0-preview --target main --title '玖云输入法 v0.1.0 开发预览' --notes-file RELEASE_NOTES.md --prerelease
           fi
-          gh release upload v0.1.0-preview release-files/*.exe release-files/*.apk --clobber
+          gh release upload v0.1.0-preview release-files/*.exe --clobber
