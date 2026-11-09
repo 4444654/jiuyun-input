@@ -1,0 +1,16 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {PinyinEngine,normalize,initials} from '../packages/core/engine.mjs';
+const words=JSON.parse(await readFile(new URL('../packages/lexicon/starter.json',import.meta.url),'utf8'));
+const engine=new PinyinEngine(words);
+test('normalizes spaces, apostrophes, case and umlauts',()=>{assert.equal(normalize("NI HAO"),'nihao');assert.equal(normalize("NI'HAO"),'nihao');assert.equal(normalize('lü'),'lv');assert.equal(normalize('lu:'),'lv');assert.equal(initials('qing he shu ru fa'),'qhsrf');});
+test('exact phrases outrank completions',()=>{assert.equal(engine.lookup('nihao')[0].text,'你好');assert.equal(engine.lookup('ni')[0].text,'你');assert.equal(engine.lookup('jiuyun')[0].text,'玖云');});
+test('abbreviations can be disabled independently of prefix matching',()=>{assert.equal(engine.lookup('nh')[0].text,'你好');assert.equal(engine.lookup('nh',{abbreviations:false}).length,0);assert.ok(engine.lookup('q',{abbreviations:false}).length);});
+test('dictionary segmentation combines several phrases',()=>{assert.equal(engine.lookup('womenxuexizhongwen')[0].text,'我们学习中文');});
+test('full sentence supplied by dictionary',()=>{assert.equal(engine.lookup('jintiantianqihenhao')[0].text,'今天天气很好');});
+test('learning changes ranking within the same match type',()=>{const local=new PinyinEngine(words);for(let i=0;i<8;i++)local.learn('ni','呢');assert.equal(local.lookup('ni')[0].text,'呢');assert.equal(engine.lookup('ni')[0].text,'你');});
+test('custom words participate in exact and abbreviated matches',()=>{const e=new PinyinEngine(words,{custom:[{pinyin:'xing he',text:'星河',weight:5000}]});assert.equal(e.lookup('xinghe')[0].text,'星河');assert.ok(e.lookup('xh').some(w=>w.text==='星河'));});
+test('empty, unknown and oversized queries remain bounded',()=>{assert.deepEqual(engine.lookup(''),[]);assert.deepEqual(engine.lookup('zzzzzz'),[]);assert.ok(engine.lookup('a'.repeat(5000)).length<=30);});
+test('candidates are unique, ordered and limited',()=>{const c=engine.lookup('ni',{limit:3});assert.equal(c.length,3);assert.equal(new Set(c.map(w=>w.text)).size,3);assert.ok(c.every((w,i)=>!i||c[i-1].score>=w.score));});
+test('starter lexicon contains only valid original entries',()=>{const seen=new Set();for(const w of words){assert.match(w.pinyin,/^[a-z]+(?: [a-z]+)*$/);assert.ok(w.text);assert.ok(w.weight>0);const k=w.pinyin+'|'+w.text;assert.ok(!seen.has(k),k);seen.add(k);}});

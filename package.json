@@ -1,0 +1,20 @@
+{
+  "name": "jiuyun-input",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "玖云输入法 · 双拼优先的多端开源输入法原型",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test",
+    "generate": "node scripts/generate.mjs && node scripts/generate-native.mjs",
+    "check": "node scripts/check.mjs",
+    "package": "node scripts/package.mjs",
+    "generate:native": "node scripts/generate-native.mjs"
+  }
+}

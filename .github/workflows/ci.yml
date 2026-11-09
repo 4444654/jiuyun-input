@@ -1,0 +1,90 @@
+name: Jiuyun builds
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+concurrency:
+  group: jiuyun-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - run: npm run check
+      - run: node scripts/generate.mjs --check
+      - run: node scripts/generate-native.mjs --check
+  windows:
+    needs: core
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+      - run: cmake -S apps/windows -B apps/windows/build/x64 -A x64
+      - run: cmake --build apps/windows/build/x64 --config Release --parallel
+      - run: cmake -S apps/windows -B apps/windows/build/x86 -A Win32
+      - run: cmake --build apps/windows/build/x86 --config Release --parallel
+      - name: Build standalone installer
+        shell: pwsh
+        run: |
+          $compiler = 'C:\Program Files (x86)\Inno Setup 6\ISCC.exe'
+          if (-not (Test-Path -LiteralPath $compiler)) { choco install innosetup --no-progress -y }
+          & $compiler apps/windows/installer.iss
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jiuyun-windows-installer
+          path: apps/windows/build/installer/*.exe
+  android:
+    needs: core
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+      - run: gradle :app:assembleDebug
+        working-directory: apps/android
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jiuyun-android-debug
+          path: apps/android/app/build/outputs/apk/debug/*.apk
+  ios:
+    needs: core
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: brew install xcodegen
+      - run: xcodegen generate
+        working-directory: apps/ios
+      - run: xcodebuild -project Jiuyun.xcodeproj -scheme Jiuyun -sdk iphonesimulator -configuration Debug CODE_SIGNING_ALLOWED=NO build
+        working-directory: apps/ios
+  release:
+    if: github.event_name == 'workflow_dispatch'
+    needs: [windows, android]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: release-files
+          merge-multiple: true
+      - name: Publish development installers
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          if ! gh release view v0.1.0-preview >/dev/null 2>&1; then
+            gh release create v0.1.0-preview --target main --title '玖云输入法 v0.1.0 开发预览' --notes-file RELEASE_NOTES.md --prerelease
+          fi
+          gh release upload v0.1.0-preview release-files/*.exe release-files/*.apk --clobber

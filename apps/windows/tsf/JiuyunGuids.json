@@ -1,0 +1,15 @@
+{
+  "SampleIMECLSID": "d22422b6-4c68-45c2-a120-bf916a57c78e",
+  "SampleIMEGuidProfile": "d3ffee35-c004-41eb-a074-fa8d27ec3ff0",
+  "SampleIMEGuidImeModePreserveKey": "6cdacf9f-c2d7-4eb8-a3ed-7d53536865fe",
+  "SampleIMEGuidDoubleSingleBytePreserveKey": "8f646d41-a209-476c-96ef-8ba00b6ed575",
+  "SampleIMEGuidPunctuationPreserveKey": "2a7387c4-666f-46b7-aae6-e852ed222b26",
+  "SampleIMEGuidCompartmentDoubleSingleByte": "ba6f4549-f529-498a-b8b0-1012d8bd7321",
+  "SampleIMEGuidCompartmentPunctuation": "16e1bc18-1371-4799-bbb3-b32c6ee2a04e",
+  "SampleIMEGuidLangBarIMEMode": "76f8e8a8-8191-4262-8c41-ec84327d737d",
+  "SampleIMEGuidLangBarDoubleSingleByte": "7147f6f3-d78f-4b03-99d6-df960d9b3e82",
+  "SampleIMEGuidLangBarPunctuation": "b710c980-67a3-47bc-b5c6-5751d4f1c156",
+  "SampleIMEGuidDisplayAttributeInput": "89285724-8992-4c32-ac05-64a29a64d831",
+  "SampleIMEGuidDisplayAttributeConverted": "5f75bdb0-be28-4924-9e1e-01d4236fa5ef",
+  "SampleIMEGuidCandUIElement": "8f8ed9db-b4f3-40c8-96b4-9c49b45148a7"
+}
