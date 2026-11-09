@@ -1,0 +1,3 @@
+import {encodePinyin}from'./shuangpin.mjs';
+export function windowsDictionaryText(entries,scheme){const rows=entries.flatMap(w=>(scheme?encodePinyin(w.pinyin,scheme):[w.pinyin.replaceAll(' ','')]).map(code=>({code:code.toUpperCase(),text:w.text,weight:w.weight||0}))).sort((a,b)=>a.code<b.code?-1:a.code>b.code?1:b.weight-a.weight);const seen=new Set();return '\ufeff'+rows.filter(w=>{const key=w.code+'|'+w.text;if(seen.has(key))return false;seen.add(key);return !/["\r\n]/.test(w.text);}).map(w=>'"'+w.code+'"="'+w.text+'"').join('\r\n')+'\r\n';}
+export function utf16le(text){const bytes=new Uint8Array(text.length*2);const view=new DataView(bytes.buffer);for(let i=0;i<text.length;i++)view.setUint16(i*2,text.charCodeAt(i),true);return bytes;}

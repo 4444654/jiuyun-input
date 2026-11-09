@@ -1,0 +1,4 @@
+# Merge these keys into the existing patch block.
+patch:
+  "schema_list/@next": { schema: jiuyun_flypy }
+# Add other schemes in your schema_list as needed; see docs/PLATFORMS.md.

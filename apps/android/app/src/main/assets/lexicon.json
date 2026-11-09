@@ -1,0 +1,2262 @@
+[
+  {
+    "pinyin": "ni",
+    "text": "你",
+    "weight": 1000
+  },
+  {
+    "pinyin": "ni",
+    "text": "呢",
+    "weight": 700
+  },
+  {
+    "pinyin": "ni",
+    "text": "泥",
+    "weight": 500
+  },
+  {
+    "pinyin": "ni",
+    "text": "拟",
+    "weight": 400
+  },
+  {
+    "pinyin": "ni",
+    "text": "逆",
+    "weight": 300
+  },
+  {
+    "pinyin": "ni",
+    "text": "妮",
+    "weight": 200
+  },
+  {
+    "pinyin": "ni",
+    "text": "倪",
+    "weight": 180
+  },
+  {
+    "pinyin": "ni",
+    "text": "腻",
+    "weight": 160
+  },
+  {
+    "pinyin": "hao",
+    "text": "好",
+    "weight": 1000
+  },
+  {
+    "pinyin": "hao",
+    "text": "号",
+    "weight": 800
+  },
+  {
+    "pinyin": "hao",
+    "text": "浩",
+    "weight": 400
+  },
+  {
+    "pinyin": "hao",
+    "text": "毫",
+    "weight": 300
+  },
+  {
+    "pinyin": "ni hao",
+    "text": "你好",
+    "weight": 2000
+  },
+  {
+    "pinyin": "ni hao ya",
+    "text": "你好呀",
+    "weight": 1500
+  },
+  {
+    "pinyin": "ni hao ma",
+    "text": "你好吗",
+    "weight": 1400
+  },
+  {
+    "pinyin": "nin",
+    "text": "您",
+    "weight": 1000
+  },
+  {
+    "pinyin": "nin hao",
+    "text": "您好",
+    "weight": 1600
+  },
+  {
+    "pinyin": "wo",
+    "text": "我",
+    "weight": 1200
+  },
+  {
+    "pinyin": "wo",
+    "text": "窝",
+    "weight": 300
+  },
+  {
+    "pinyin": "wo men",
+    "text": "我们",
+    "weight": 1600
+  },
+  {
+    "pinyin": "wo de",
+    "text": "我的",
+    "weight": 1500
+  },
+  {
+    "pinyin": "wo ai ni",
+    "text": "我爱你",
+    "weight": 1800
+  },
+  {
+    "pinyin": "wo xiang ni",
+    "text": "我想你",
+    "weight": 1300
+  },
+  {
+    "pinyin": "wo zhi dao",
+    "text": "我知道",
+    "weight": 1200
+  },
+  {
+    "pinyin": "wo zai",
+    "text": "我在",
+    "weight": 900
+  },
+  {
+    "pinyin": "wo lai le",
+    "text": "我来了",
+    "weight": 1000
+  },
+  {
+    "pinyin": "wo men yi qi",
+    "text": "我们一起",
+    "weight": 1200
+  },
+  {
+    "pinyin": "ni men",
+    "text": "你们",
+    "weight": 1200
+  },
+  {
+    "pinyin": "ta",
+    "text": "他",
+    "weight": 1100
+  },
+  {
+    "pinyin": "ta",
+    "text": "她",
+    "weight": 1000
+  },
+  {
+    "pinyin": "ta",
+    "text": "它",
+    "weight": 900
+  },
+  {
+    "pinyin": "ta men",
+    "text": "他们",
+    "weight": 1400
+  },
+  {
+    "pinyin": "ta men",
+    "text": "她们",
+    "weight": 1300
+  },
+  {
+    "pinyin": "shi",
+    "text": "是",
+    "weight": 1500
+  },
+  {
+    "pinyin": "shi",
+    "text": "时",
+    "weight": 1200
+  },
+  {
+    "pinyin": "shi",
+    "text": "事",
+    "weight": 1100
+  },
+  {
+    "pinyin": "shi",
+    "text": "十",
+    "weight": 1000
+  },
+  {
+    "pinyin": "shi",
+    "text": "使",
+    "weight": 900
+  },
+  {
+    "pinyin": "shi",
+    "text": "市",
+    "weight": 850
+  },
+  {
+    "pinyin": "shi",
+    "text": "试",
+    "weight": 800
+  },
+  {
+    "pinyin": "shi",
+    "text": "诗",
+    "weight": 700
+  },
+  {
+    "pinyin": "shi",
+    "text": "式",
+    "weight": 650
+  },
+  {
+    "pinyin": "shi",
+    "text": "师",
+    "weight": 600
+  },
+  {
+    "pinyin": "shi jie",
+    "text": "世界",
+    "weight": 1400
+  },
+  {
+    "pinyin": "shi jian",
+    "text": "时间",
+    "weight": 1500
+  },
+  {
+    "pinyin": "shi qing",
+    "text": "事情",
+    "weight": 1200
+  },
+  {
+    "pinyin": "shi hou",
+    "text": "时候",
+    "weight": 1300
+  },
+  {
+    "pinyin": "shi de",
+    "text": "是的",
+    "weight": 1300
+  },
+  {
+    "pinyin": "shi pin",
+    "text": "视频",
+    "weight": 1100
+  },
+  {
+    "pinyin": "shi yong",
+    "text": "使用",
+    "weight": 1200
+  },
+  {
+    "pinyin": "shi xian",
+    "text": "实现",
+    "weight": 1100
+  },
+  {
+    "pinyin": "de",
+    "text": "的",
+    "weight": 1500
+  },
+  {
+    "pinyin": "de",
+    "text": "得",
+    "weight": 1200
+  },
+  {
+    "pinyin": "de",
+    "text": "地",
+    "weight": 1100
+  },
+  {
+    "pinyin": "le",
+    "text": "了",
+    "weight": 1500
+  },
+  {
+    "pinyin": "le",
+    "text": "乐",
+    "weight": 700
+  },
+  {
+    "pinyin": "zai",
+    "text": "在",
+    "weight": 1500
+  },
+  {
+    "pinyin": "zai",
+    "text": "再",
+    "weight": 1200
+  },
+  {
+    "pinyin": "zai jian",
+    "text": "再见",
+    "weight": 1400
+  },
+  {
+    "pinyin": "zai ma",
+    "text": "在吗",
+    "weight": 1300
+  },
+  {
+    "pinyin": "zai jia",
+    "text": "在家",
+    "weight": 1000
+  },
+  {
+    "pinyin": "zai ci",
+    "text": "再次",
+    "weight": 900
+  },
+  {
+    "pinyin": "he",
+    "text": "和",
+    "weight": 1300
+  },
+  {
+    "pinyin": "he",
+    "text": "喝",
+    "weight": 1100
+  },
+  {
+    "pinyin": "he",
+    "text": "河",
+    "weight": 900
+  },
+  {
+    "pinyin": "he",
+    "text": "禾",
+    "weight": 800
+  },
+  {
+    "pinyin": "he zuo",
+    "text": "合作",
+    "weight": 1200
+  },
+  {
+    "pinyin": "qing",
+    "text": "请",
+    "weight": 1200
+  },
+  {
+    "pinyin": "qing",
+    "text": "轻",
+    "weight": 1100
+  },
+  {
+    "pinyin": "qing",
+    "text": "青",
+    "weight": 1000
+  },
+  {
+    "pinyin": "qing",
+    "text": "清",
+    "weight": 950
+  },
+  {
+    "pinyin": "qing",
+    "text": "情",
+    "weight": 900
+  },
+  {
+    "pinyin": "jiu yun",
+    "text": "玖云",
+    "weight": 2000
+  },
+  {
+    "pinyin": "jiu yun shu ru fa",
+    "text": "玖云输入法",
+    "weight": 2000
+  },
+  {
+    "pinyin": "qing wen",
+    "text": "请问",
+    "weight": 1300
+  },
+  {
+    "pinyin": "qing song",
+    "text": "轻松",
+    "weight": 1200
+  },
+  {
+    "pinyin": "qing chu",
+    "text": "清楚",
+    "weight": 1000
+  },
+  {
+    "pinyin": "qing feng",
+    "text": "清风",
+    "weight": 1000
+  },
+  {
+    "pinyin": "qing tian",
+    "text": "晴天",
+    "weight": 900
+  },
+  {
+    "pinyin": "shu",
+    "text": "书",
+    "weight": 1100
+  },
+  {
+    "pinyin": "shu",
+    "text": "数",
+    "weight": 1000
+  },
+  {
+    "pinyin": "shu",
+    "text": "树",
+    "weight": 900
+  },
+  {
+    "pinyin": "shu",
+    "text": "输",
+    "weight": 850
+  },
+  {
+    "pinyin": "ru",
+    "text": "入",
+    "weight": 1100
+  },
+  {
+    "pinyin": "ru",
+    "text": "如",
+    "weight": 1000
+  },
+  {
+    "pinyin": "fa",
+    "text": "法",
+    "weight": 1100
+  },
+  {
+    "pinyin": "fa",
+    "text": "发",
+    "weight": 1000
+  },
+  {
+    "pinyin": "shu ru",
+    "text": "输入",
+    "weight": 1500
+  },
+  {
+    "pinyin": "shu ru fa",
+    "text": "输入法",
+    "weight": 1800
+  },
+  {
+    "pinyin": "wen",
+    "text": "文",
+    "weight": 1100
+  },
+  {
+    "pinyin": "wen",
+    "text": "问",
+    "weight": 1000
+  },
+  {
+    "pinyin": "wen",
+    "text": "温",
+    "weight": 900
+  },
+  {
+    "pinyin": "wen zi",
+    "text": "文字",
+    "weight": 1500
+  },
+  {
+    "pinyin": "wen jian",
+    "text": "文件",
+    "weight": 1300
+  },
+  {
+    "pinyin": "wen dang",
+    "text": "文档",
+    "weight": 1200
+  },
+  {
+    "pinyin": "wen rou",
+    "text": "温柔",
+    "weight": 1100
+  },
+  {
+    "pinyin": "zhong",
+    "text": "中",
+    "weight": 1200
+  },
+  {
+    "pinyin": "zhong",
+    "text": "种",
+    "weight": 1000
+  },
+  {
+    "pinyin": "zhong",
+    "text": "重",
+    "weight": 900
+  },
+  {
+    "pinyin": "zhong wen",
+    "text": "中文",
+    "weight": 1800
+  },
+  {
+    "pinyin": "zhong guo",
+    "text": "中国",
+    "weight": 1800
+  },
+  {
+    "pinyin": "zhong wu",
+    "text": "中午",
+    "weight": 1200
+  },
+  {
+    "pinyin": "ying",
+    "text": "英",
+    "weight": 1000
+  },
+  {
+    "pinyin": "ying",
+    "text": "应",
+    "weight": 950
+  },
+  {
+    "pinyin": "ying",
+    "text": "影",
+    "weight": 900
+  },
+  {
+    "pinyin": "ying wen",
+    "text": "英文",
+    "weight": 1500
+  },
+  {
+    "pinyin": "ying yong",
+    "text": "应用",
+    "weight": 1300
+  },
+  {
+    "pinyin": "pin yin",
+    "text": "拼音",
+    "weight": 1500
+  },
+  {
+    "pinyin": "jian",
+    "text": "见",
+    "weight": 1100
+  },
+  {
+    "pinyin": "jian",
+    "text": "间",
+    "weight": 1000
+  },
+  {
+    "pinyin": "jian",
+    "text": "键",
+    "weight": 950
+  },
+  {
+    "pinyin": "jian",
+    "text": "简",
+    "weight": 900
+  },
+  {
+    "pinyin": "jian dan",
+    "text": "简单",
+    "weight": 1500
+  },
+  {
+    "pinyin": "jian pan",
+    "text": "键盘",
+    "weight": 1500
+  },
+  {
+    "pinyin": "jian yi",
+    "text": "建议",
+    "weight": 1200
+  },
+  {
+    "pinyin": "kai",
+    "text": "开",
+    "weight": 1100
+  },
+  {
+    "pinyin": "kai",
+    "text": "凯",
+    "weight": 800
+  },
+  {
+    "pinyin": "kai yuan",
+    "text": "开源",
+    "weight": 1600
+  },
+  {
+    "pinyin": "kai shi",
+    "text": "开始",
+    "weight": 1500
+  },
+  {
+    "pinyin": "kai xin",
+    "text": "开心",
+    "weight": 1400
+  },
+  {
+    "pinyin": "kai fa",
+    "text": "开发",
+    "weight": 1400
+  },
+  {
+    "pinyin": "kai fa zhe",
+    "text": "开发者",
+    "weight": 1300
+  },
+  {
+    "pinyin": "xiang",
+    "text": "想",
+    "weight": 1200
+  },
+  {
+    "pinyin": "xiang",
+    "text": "向",
+    "weight": 1100
+  },
+  {
+    "pinyin": "xiang",
+    "text": "像",
+    "weight": 1000
+  },
+  {
+    "pinyin": "xiang",
+    "text": "香",
+    "weight": 900
+  },
+  {
+    "pinyin": "xiang mu",
+    "text": "项目",
+    "weight": 1500
+  },
+  {
+    "pinyin": "xiang fa",
+    "text": "想法",
+    "weight": 1300
+  },
+  {
+    "pinyin": "xiang xin",
+    "text": "相信",
+    "weight": 1200
+  },
+  {
+    "pinyin": "xie",
+    "text": "写",
+    "weight": 1100
+  },
+  {
+    "pinyin": "xie",
+    "text": "些",
+    "weight": 1000
+  },
+  {
+    "pinyin": "xie",
+    "text": "谢",
+    "weight": 900
+  },
+  {
+    "pinyin": "xie xie",
+    "text": "谢谢",
+    "weight": 1800
+  },
+  {
+    "pinyin": "xie zuo",
+    "text": "写作",
+    "weight": 1400
+  },
+  {
+    "pinyin": "xie dai ma",
+    "text": "写代码",
+    "weight": 1300
+  },
+  {
+    "pinyin": "xie dian shen me",
+    "text": "写点什么",
+    "weight": 1400
+  },
+  {
+    "pinyin": "bu",
+    "text": "不",
+    "weight": 1300
+  },
+  {
+    "pinyin": "bu",
+    "text": "部",
+    "weight": 1000
+  },
+  {
+    "pinyin": "bu",
+    "text": "步",
+    "weight": 900
+  },
+  {
+    "pinyin": "bu ke qi",
+    "text": "不客气",
+    "weight": 1600
+  },
+  {
+    "pinyin": "bu hao yi si",
+    "text": "不好意思",
+    "weight": 1500
+  },
+  {
+    "pinyin": "bu yong",
+    "text": "不用",
+    "weight": 1200
+  },
+  {
+    "pinyin": "bu cuo",
+    "text": "不错",
+    "weight": 1300
+  },
+  {
+    "pinyin": "mei",
+    "text": "没",
+    "weight": 1100
+  },
+  {
+    "pinyin": "mei",
+    "text": "美",
+    "weight": 1000
+  },
+  {
+    "pinyin": "mei",
+    "text": "每",
+    "weight": 900
+  },
+  {
+    "pinyin": "mei guan xi",
+    "text": "没关系",
+    "weight": 1600
+  },
+  {
+    "pinyin": "mei tian",
+    "text": "每天",
+    "weight": 1400
+  },
+  {
+    "pinyin": "mei hao",
+    "text": "美好",
+    "weight": 1300
+  },
+  {
+    "pinyin": "mei you",
+    "text": "没有",
+    "weight": 1500
+  },
+  {
+    "pinyin": "ke",
+    "text": "可",
+    "weight": 1200
+  },
+  {
+    "pinyin": "ke",
+    "text": "课",
+    "weight": 900
+  },
+  {
+    "pinyin": "ke",
+    "text": "客",
+    "weight": 850
+  },
+  {
+    "pinyin": "ke yi",
+    "text": "可以",
+    "weight": 1700
+  },
+  {
+    "pinyin": "ke ai",
+    "text": "可爱",
+    "weight": 1300
+  },
+  {
+    "pinyin": "ke neng",
+    "text": "可能",
+    "weight": 1400
+  },
+  {
+    "pinyin": "yi",
+    "text": "一",
+    "weight": 1400
+  },
+  {
+    "pinyin": "yi",
+    "text": "以",
+    "weight": 1200
+  },
+  {
+    "pinyin": "yi",
+    "text": "已",
+    "weight": 1000
+  },
+  {
+    "pinyin": "yi",
+    "text": "意",
+    "weight": 900
+  },
+  {
+    "pinyin": "yi qi",
+    "text": "一起",
+    "weight": 1600
+  },
+  {
+    "pinyin": "yi ge",
+    "text": "一个",
+    "weight": 1700
+  },
+  {
+    "pinyin": "yi yang",
+    "text": "一样",
+    "weight": 1400
+  },
+  {
+    "pinyin": "yi jing",
+    "text": "已经",
+    "weight": 1500
+  },
+  {
+    "pinyin": "yi hui er",
+    "text": "一会儿",
+    "weight": 1300
+  },
+  {
+    "pinyin": "you",
+    "text": "有",
+    "weight": 1400
+  },
+  {
+    "pinyin": "you",
+    "text": "又",
+    "weight": 1200
+  },
+  {
+    "pinyin": "you",
+    "text": "友",
+    "weight": 1000
+  },
+  {
+    "pinyin": "you dian",
+    "text": "有点",
+    "weight": 1400
+  },
+  {
+    "pinyin": "you qu",
+    "text": "有趣",
+    "weight": 1300
+  },
+  {
+    "pinyin": "you kong",
+    "text": "有空",
+    "weight": 1200
+  },
+  {
+    "pinyin": "peng you",
+    "text": "朋友",
+    "weight": 1600
+  },
+  {
+    "pinyin": "xian",
+    "text": "先",
+    "weight": 1100
+  },
+  {
+    "pinyin": "xian",
+    "text": "现",
+    "weight": 1000
+  },
+  {
+    "pinyin": "xian",
+    "text": "线",
+    "weight": 900
+  },
+  {
+    "pinyin": "xian zai",
+    "text": "现在",
+    "weight": 1600
+  },
+  {
+    "pinyin": "xian shi",
+    "text": "显示",
+    "weight": 1300
+  },
+  {
+    "pinyin": "xian mu",
+    "text": "羡慕",
+    "weight": 1000
+  },
+  {
+    "pinyin": "jin",
+    "text": "今",
+    "weight": 1000
+  },
+  {
+    "pinyin": "jin",
+    "text": "进",
+    "weight": 950
+  },
+  {
+    "pinyin": "jin",
+    "text": "近",
+    "weight": 900
+  },
+  {
+    "pinyin": "jin tian",
+    "text": "今天",
+    "weight": 1700
+  },
+  {
+    "pinyin": "jin wan",
+    "text": "今晚",
+    "weight": 1400
+  },
+  {
+    "pinyin": "jin tian tian qi hen hao",
+    "text": "今天天气很好",
+    "weight": 2000
+  },
+  {
+    "pinyin": "jin tian ye yao kai xin",
+    "text": "今天也要开心",
+    "weight": 1700
+  },
+  {
+    "pinyin": "tian",
+    "text": "天",
+    "weight": 1200
+  },
+  {
+    "pinyin": "tian",
+    "text": "田",
+    "weight": 900
+  },
+  {
+    "pinyin": "tian qi",
+    "text": "天气",
+    "weight": 1600
+  },
+  {
+    "pinyin": "tian kong",
+    "text": "天空",
+    "weight": 1300
+  },
+  {
+    "pinyin": "tian tian",
+    "text": "天天",
+    "weight": 1200
+  },
+  {
+    "pinyin": "qi",
+    "text": "起",
+    "weight": 1100
+  },
+  {
+    "pinyin": "qi",
+    "text": "气",
+    "weight": 1000
+  },
+  {
+    "pinyin": "qi",
+    "text": "期",
+    "weight": 900
+  },
+  {
+    "pinyin": "qi dai",
+    "text": "期待",
+    "weight": 1400
+  },
+  {
+    "pinyin": "hen",
+    "text": "很",
+    "weight": 1300
+  },
+  {
+    "pinyin": "hen hao",
+    "text": "很好",
+    "weight": 1500
+  },
+  {
+    "pinyin": "hen kai xin",
+    "text": "很开心",
+    "weight": 1400
+  },
+  {
+    "pinyin": "ming",
+    "text": "明",
+    "weight": 1100
+  },
+  {
+    "pinyin": "ming",
+    "text": "名",
+    "weight": 1000
+  },
+  {
+    "pinyin": "ming tian",
+    "text": "明天",
+    "weight": 1600
+  },
+  {
+    "pinyin": "ming bai",
+    "text": "明白",
+    "weight": 1400
+  },
+  {
+    "pinyin": "ming zi",
+    "text": "名字",
+    "weight": 1300
+  },
+  {
+    "pinyin": "zao",
+    "text": "早",
+    "weight": 1200
+  },
+  {
+    "pinyin": "zao shang hao",
+    "text": "早上好",
+    "weight": 1600
+  },
+  {
+    "pinyin": "zao an",
+    "text": "早安",
+    "weight": 1500
+  },
+  {
+    "pinyin": "wan",
+    "text": "晚",
+    "weight": 1200
+  },
+  {
+    "pinyin": "wan",
+    "text": "玩",
+    "weight": 1100
+  },
+  {
+    "pinyin": "wan an",
+    "text": "晚安",
+    "weight": 1600
+  },
+  {
+    "pinyin": "wan shang",
+    "text": "晚上",
+    "weight": 1400
+  },
+  {
+    "pinyin": "wan cheng",
+    "text": "完成",
+    "weight": 1400
+  },
+  {
+    "pinyin": "xia",
+    "text": "下",
+    "weight": 1200
+  },
+  {
+    "pinyin": "xia",
+    "text": "夏",
+    "weight": 1000
+  },
+  {
+    "pinyin": "xia wu",
+    "text": "下午",
+    "weight": 1400
+  },
+  {
+    "pinyin": "xia ban",
+    "text": "下班",
+    "weight": 1500
+  },
+  {
+    "pinyin": "shang",
+    "text": "上",
+    "weight": 1200
+  },
+  {
+    "pinyin": "shang",
+    "text": "商",
+    "weight": 900
+  },
+  {
+    "pinyin": "shang ban",
+    "text": "上班",
+    "weight": 1500
+  },
+  {
+    "pinyin": "shang wu",
+    "text": "上午",
+    "weight": 1400
+  },
+  {
+    "pinyin": "shang hai",
+    "text": "上海",
+    "weight": 1500
+  },
+  {
+    "pinyin": "bei jing",
+    "text": "北京",
+    "weight": 1500
+  },
+  {
+    "pinyin": "shen zhen",
+    "text": "深圳",
+    "weight": 1400
+  },
+  {
+    "pinyin": "guang zhou",
+    "text": "广州",
+    "weight": 1400
+  },
+  {
+    "pinyin": "hang zhou",
+    "text": "杭州",
+    "weight": 1400
+  },
+  {
+    "pinyin": "cheng du",
+    "text": "成都",
+    "weight": 1400
+  },
+  {
+    "pinyin": "nan jing",
+    "text": "南京",
+    "weight": 1300
+  },
+  {
+    "pinyin": "wu han",
+    "text": "武汉",
+    "weight": 1300
+  },
+  {
+    "pinyin": "xi an",
+    "text": "西安",
+    "weight": 1300
+  },
+  {
+    "pinyin": "chang sha",
+    "text": "长沙",
+    "weight": 1200
+  },
+  {
+    "pinyin": "su zhou",
+    "text": "苏州",
+    "weight": 1200
+  },
+  {
+    "pinyin": "gong",
+    "text": "工",
+    "weight": 1100
+  },
+  {
+    "pinyin": "gong",
+    "text": "公",
+    "weight": 1000
+  },
+  {
+    "pinyin": "gong zuo",
+    "text": "工作",
+    "weight": 1600
+  },
+  {
+    "pinyin": "gong ju",
+    "text": "工具",
+    "weight": 1300
+  },
+  {
+    "pinyin": "gong si",
+    "text": "公司",
+    "weight": 1400
+  },
+  {
+    "pinyin": "xue",
+    "text": "学",
+    "weight": 1100
+  },
+  {
+    "pinyin": "xue",
+    "text": "雪",
+    "weight": 900
+  },
+  {
+    "pinyin": "xue xi",
+    "text": "学习",
+    "weight": 1600
+  },
+  {
+    "pinyin": "xue sheng",
+    "text": "学生",
+    "weight": 1400
+  },
+  {
+    "pinyin": "xue xiao",
+    "text": "学校",
+    "weight": 1400
+  },
+  {
+    "pinyin": "sheng",
+    "text": "生",
+    "weight": 1200
+  },
+  {
+    "pinyin": "sheng",
+    "text": "声",
+    "weight": 1000
+  },
+  {
+    "pinyin": "sheng huo",
+    "text": "生活",
+    "weight": 1600
+  },
+  {
+    "pinyin": "sheng ri",
+    "text": "生日",
+    "weight": 1400
+  },
+  {
+    "pinyin": "sheng ri kuai le",
+    "text": "生日快乐",
+    "weight": 1700
+  },
+  {
+    "pinyin": "kuai",
+    "text": "快",
+    "weight": 1100
+  },
+  {
+    "pinyin": "kuai le",
+    "text": "快乐",
+    "weight": 1500
+  },
+  {
+    "pinyin": "kuai jie",
+    "text": "快捷",
+    "weight": 1300
+  },
+  {
+    "pinyin": "kuai di",
+    "text": "快递",
+    "weight": 1300
+  },
+  {
+    "pinyin": "an",
+    "text": "安",
+    "weight": 1100
+  },
+  {
+    "pinyin": "an quan",
+    "text": "安全",
+    "weight": 1500
+  },
+  {
+    "pinyin": "an jing",
+    "text": "安静",
+    "weight": 1300
+  },
+  {
+    "pinyin": "ben",
+    "text": "本",
+    "weight": 1100
+  },
+  {
+    "pinyin": "ben di",
+    "text": "本地",
+    "weight": 1400
+  },
+  {
+    "pinyin": "ben lai",
+    "text": "本来",
+    "weight": 1200
+  },
+  {
+    "pinyin": "li",
+    "text": "里",
+    "weight": 1200
+  },
+  {
+    "pinyin": "li",
+    "text": "理",
+    "weight": 1000
+  },
+  {
+    "pinyin": "li",
+    "text": "力",
+    "weight": 950
+  },
+  {
+    "pinyin": "liang",
+    "text": "两",
+    "weight": 1100
+  },
+  {
+    "pinyin": "liang",
+    "text": "亮",
+    "weight": 1000
+  },
+  {
+    "pinyin": "liang ge",
+    "text": "两个",
+    "weight": 1300
+  },
+  {
+    "pinyin": "san",
+    "text": "三",
+    "weight": 1100
+  },
+  {
+    "pinyin": "si",
+    "text": "四",
+    "weight": 1100
+  },
+  {
+    "pinyin": "wu",
+    "text": "五",
+    "weight": 1100
+  },
+  {
+    "pinyin": "liu",
+    "text": "六",
+    "weight": 1100
+  },
+  {
+    "pinyin": "qi",
+    "text": "七",
+    "weight": 800
+  },
+  {
+    "pinyin": "ba",
+    "text": "八",
+    "weight": 1000
+  },
+  {
+    "pinyin": "ba",
+    "text": "吧",
+    "weight": 1200
+  },
+  {
+    "pinyin": "jiu",
+    "text": "九",
+    "weight": 1000
+  },
+  {
+    "pinyin": "jiu",
+    "text": "就",
+    "weight": 1200
+  },
+  {
+    "pinyin": "ling",
+    "text": "零",
+    "weight": 1100
+  },
+  {
+    "pinyin": "bai",
+    "text": "百",
+    "weight": 1100
+  },
+  {
+    "pinyin": "qian",
+    "text": "千",
+    "weight": 1100
+  },
+  {
+    "pinyin": "qian",
+    "text": "前",
+    "weight": 1000
+  },
+  {
+    "pinyin": "wan",
+    "text": "万",
+    "weight": 800
+  },
+  {
+    "pinyin": "chi",
+    "text": "吃",
+    "weight": 1200
+  },
+  {
+    "pinyin": "chi fan",
+    "text": "吃饭",
+    "weight": 1500
+  },
+  {
+    "pinyin": "chi le ma",
+    "text": "吃了吗",
+    "weight": 1400
+  },
+  {
+    "pinyin": "fan",
+    "text": "饭",
+    "weight": 1100
+  },
+  {
+    "pinyin": "fan",
+    "text": "反",
+    "weight": 900
+  },
+  {
+    "pinyin": "fan kui",
+    "text": "反馈",
+    "weight": 1300
+  },
+  {
+    "pinyin": "shui",
+    "text": "水",
+    "weight": 1200
+  },
+  {
+    "pinyin": "shui",
+    "text": "谁",
+    "weight": 1000
+  },
+  {
+    "pinyin": "shui guo",
+    "text": "水果",
+    "weight": 1300
+  },
+  {
+    "pinyin": "shui jiao",
+    "text": "睡觉",
+    "weight": 1400
+  },
+  {
+    "pinyin": "cha",
+    "text": "茶",
+    "weight": 1100
+  },
+  {
+    "pinyin": "ka fei",
+    "text": "咖啡",
+    "weight": 1500
+  },
+  {
+    "pinyin": "nai cha",
+    "text": "奶茶",
+    "weight": 1400
+  },
+  {
+    "pinyin": "hao de",
+    "text": "好的",
+    "weight": 1900
+  },
+  {
+    "pinyin": "hao ya",
+    "text": "好呀",
+    "weight": 1700
+  },
+  {
+    "pinyin": "hao ba",
+    "text": "好吧",
+    "weight": 1500
+  },
+  {
+    "pinyin": "hao kan",
+    "text": "好看",
+    "weight": 1400
+  },
+  {
+    "pinyin": "hao chi",
+    "text": "好吃",
+    "weight": 1400
+  },
+  {
+    "pinyin": "hao jiu bu jian",
+    "text": "好久不见",
+    "weight": 1600
+  },
+  {
+    "pinyin": "lian",
+    "text": "连",
+    "weight": 1100
+  },
+  {
+    "pinyin": "lian",
+    "text": "联",
+    "weight": 1000
+  },
+  {
+    "pinyin": "lian xi",
+    "text": "联系",
+    "weight": 1400
+  },
+  {
+    "pinyin": "lian jie",
+    "text": "连接",
+    "weight": 1400
+  },
+  {
+    "pinyin": "lian jie",
+    "text": "链接",
+    "weight": 1300
+  },
+  {
+    "pinyin": "zi",
+    "text": "字",
+    "weight": 1100
+  },
+  {
+    "pinyin": "zi",
+    "text": "自",
+    "weight": 1000
+  },
+  {
+    "pinyin": "zi ran",
+    "text": "自然",
+    "weight": 1500
+  },
+  {
+    "pinyin": "zi ji",
+    "text": "自己",
+    "weight": 1500
+  },
+  {
+    "pinyin": "zi you",
+    "text": "自由",
+    "weight": 1500
+  },
+  {
+    "pinyin": "biao",
+    "text": "表",
+    "weight": 1100
+  },
+  {
+    "pinyin": "biao da",
+    "text": "表达",
+    "weight": 1500
+  },
+  {
+    "pinyin": "biao qing",
+    "text": "表情",
+    "weight": 1400
+  },
+  {
+    "pinyin": "rang",
+    "text": "让",
+    "weight": 1200
+  },
+  {
+    "pinyin": "ran",
+    "text": "然",
+    "weight": 1100
+  },
+  {
+    "pinyin": "ran hou",
+    "text": "然后",
+    "weight": 1500
+  },
+  {
+    "pinyin": "fa sheng",
+    "text": "发生",
+    "weight": 1500
+  },
+  {
+    "pinyin": "rang biao da zi ran fa sheng",
+    "text": "让表达自然发生",
+    "weight": 2100
+  },
+  {
+    "pinyin": "mo",
+    "text": "默",
+    "weight": 1000
+  },
+  {
+    "pinyin": "mo shi",
+    "text": "模式",
+    "weight": 1500
+  },
+  {
+    "pinyin": "mo ren",
+    "text": "默认",
+    "weight": 1400
+  },
+  {
+    "pinyin": "se",
+    "text": "色",
+    "weight": 1100
+  },
+  {
+    "pinyin": "shen",
+    "text": "深",
+    "weight": 1100
+  },
+  {
+    "pinyin": "shen",
+    "text": "什",
+    "weight": 900
+  },
+  {
+    "pinyin": "shen me",
+    "text": "什么",
+    "weight": 1600
+  },
+  {
+    "pinyin": "shen se",
+    "text": "深色",
+    "weight": 1400
+  },
+  {
+    "pinyin": "qian se",
+    "text": "浅色",
+    "weight": 1400
+  },
+  {
+    "pinyin": "zi ding yi",
+    "text": "自定义",
+    "weight": 1500
+  },
+  {
+    "pinyin": "ci ku",
+    "text": "词库",
+    "weight": 1500
+  },
+  {
+    "pinyin": "ci yu",
+    "text": "词语",
+    "weight": 1400
+  },
+  {
+    "pinyin": "ci",
+    "text": "词",
+    "weight": 1100
+  },
+  {
+    "pinyin": "ku",
+    "text": "库",
+    "weight": 1100
+  },
+  {
+    "pinyin": "bao",
+    "text": "保",
+    "weight": 1100
+  },
+  {
+    "pinyin": "bao",
+    "text": "包",
+    "weight": 1000
+  },
+  {
+    "pinyin": "bao cun",
+    "text": "保存",
+    "weight": 1500
+  },
+  {
+    "pinyin": "bao hu",
+    "text": "保护",
+    "weight": 1400
+  },
+  {
+    "pinyin": "bao chi",
+    "text": "保持",
+    "weight": 1300
+  },
+  {
+    "pinyin": "she zhi",
+    "text": "设置",
+    "weight": 1500
+  },
+  {
+    "pinyin": "she ji",
+    "text": "设计",
+    "weight": 1500
+  },
+  {
+    "pinyin": "yin si",
+    "text": "隐私",
+    "weight": 1500
+  },
+  {
+    "pinyin": "duo",
+    "text": "多",
+    "weight": 1200
+  },
+  {
+    "pinyin": "duo duan",
+    "text": "多端",
+    "weight": 1500
+  },
+  {
+    "pinyin": "duo xie",
+    "text": "多谢",
+    "weight": 1400
+  },
+  {
+    "pinyin": "zhe",
+    "text": "这",
+    "weight": 1300
+  },
+  {
+    "pinyin": "zhe ge",
+    "text": "这个",
+    "weight": 1500
+  },
+  {
+    "pinyin": "zhe li",
+    "text": "这里",
+    "weight": 1400
+  },
+  {
+    "pinyin": "na",
+    "text": "那",
+    "weight": 1200
+  },
+  {
+    "pinyin": "na",
+    "text": "哪",
+    "weight": 1100
+  },
+  {
+    "pinyin": "na ge",
+    "text": "那个",
+    "weight": 1400
+  },
+  {
+    "pinyin": "na li",
+    "text": "哪里",
+    "weight": 1400
+  },
+  {
+    "pinyin": "zen me",
+    "text": "怎么",
+    "weight": 1500
+  },
+  {
+    "pinyin": "zen me yang",
+    "text": "怎么样",
+    "weight": 1400
+  },
+  {
+    "pinyin": "wei",
+    "text": "为",
+    "weight": 1100
+  },
+  {
+    "pinyin": "wei",
+    "text": "微",
+    "weight": 900
+  },
+  {
+    "pinyin": "wei shen me",
+    "text": "为什么",
+    "weight": 1500
+  },
+  {
+    "pinyin": "wei xin",
+    "text": "微信",
+    "weight": 1300
+  },
+  {
+    "pinyin": "shou",
+    "text": "手",
+    "weight": 1100
+  },
+  {
+    "pinyin": "shou",
+    "text": "收",
+    "weight": 1000
+  },
+  {
+    "pinyin": "shou ji",
+    "text": "手机",
+    "weight": 1500
+  },
+  {
+    "pinyin": "shou dao",
+    "text": "收到",
+    "weight": 1700
+  },
+  {
+    "pinyin": "dian",
+    "text": "点",
+    "weight": 1200
+  },
+  {
+    "pinyin": "dian",
+    "text": "电",
+    "weight": 1100
+  },
+  {
+    "pinyin": "dian nao",
+    "text": "电脑",
+    "weight": 1500
+  },
+  {
+    "pinyin": "dian ji",
+    "text": "点击",
+    "weight": 1400
+  },
+  {
+    "pinyin": "di",
+    "text": "地",
+    "weight": 1000
+  },
+  {
+    "pinyin": "di",
+    "text": "第",
+    "weight": 950
+  },
+  {
+    "pinyin": "di yi",
+    "text": "第一",
+    "weight": 1400
+  },
+  {
+    "pinyin": "fen",
+    "text": "分",
+    "weight": 1100
+  },
+  {
+    "pinyin": "fen",
+    "text": "份",
+    "weight": 1000
+  },
+  {
+    "pinyin": "fen xiang",
+    "text": "分享",
+    "weight": 1500
+  },
+  {
+    "pinyin": "fen zhong",
+    "text": "分钟",
+    "weight": 1400
+  },
+  {
+    "pinyin": "deng",
+    "text": "等",
+    "weight": 1200
+  },
+  {
+    "pinyin": "deng yi xia",
+    "text": "等一下",
+    "weight": 1500
+  },
+  {
+    "pinyin": "ji",
+    "text": "机",
+    "weight": 1100
+  },
+  {
+    "pinyin": "ji",
+    "text": "几",
+    "weight": 1000
+  },
+  {
+    "pinyin": "ji hui",
+    "text": "机会",
+    "weight": 1400
+  },
+  {
+    "pinyin": "jie",
+    "text": "接",
+    "weight": 1100
+  },
+  {
+    "pinyin": "jie",
+    "text": "节",
+    "weight": 1000
+  },
+  {
+    "pinyin": "jie shu",
+    "text": "结束",
+    "weight": 1400
+  },
+  {
+    "pinyin": "jie kou",
+    "text": "接口",
+    "weight": 1300
+  },
+  {
+    "pinyin": "dai",
+    "text": "带",
+    "weight": 1100
+  },
+  {
+    "pinyin": "dai",
+    "text": "待",
+    "weight": 1000
+  },
+  {
+    "pinyin": "dai ma",
+    "text": "代码",
+    "weight": 1400
+  },
+  {
+    "pinyin": "cheng",
+    "text": "成",
+    "weight": 1100
+  },
+  {
+    "pinyin": "cheng",
+    "text": "程",
+    "weight": 1000
+  },
+  {
+    "pinyin": "cheng gong",
+    "text": "成功",
+    "weight": 1500
+  },
+  {
+    "pinyin": "cheng xu",
+    "text": "程序",
+    "weight": 1400
+  },
+  {
+    "pinyin": "ce shi",
+    "text": "测试",
+    "weight": 1500
+  },
+  {
+    "pinyin": "ban ben",
+    "text": "版本",
+    "weight": 1500
+  },
+  {
+    "pinyin": "geng xin",
+    "text": "更新",
+    "weight": 1500
+  },
+  {
+    "pinyin": "huan ying",
+    "text": "欢迎",
+    "weight": 1500
+  },
+  {
+    "pinyin": "huan ying shi yong",
+    "text": "欢迎使用",
+    "weight": 1700
+  },
+  {
+    "pinyin": "man man lai",
+    "text": "慢慢来",
+    "weight": 1400
+  },
+  {
+    "pinyin": "xin",
+    "text": "新",
+    "weight": 1100
+  },
+  {
+    "pinyin": "xin",
+    "text": "心",
+    "weight": 1000
+  },
+  {
+    "pinyin": "xin",
+    "text": "信",
+    "weight": 950
+  },
+  {
+    "pinyin": "xin ku le",
+    "text": "辛苦了",
+    "weight": 1700
+  },
+  {
+    "pinyin": "jia",
+    "text": "家",
+    "weight": 1200
+  },
+  {
+    "pinyin": "jia",
+    "text": "加",
+    "weight": 1100
+  },
+  {
+    "pinyin": "jia you",
+    "text": "加油",
+    "weight": 1700
+  },
+  {
+    "pinyin": "zhen",
+    "text": "真",
+    "weight": 1100
+  },
+  {
+    "pinyin": "zhen hao",
+    "text": "真好",
+    "weight": 1500
+  },
+  {
+    "pinyin": "tai",
+    "text": "太",
+    "weight": 1100
+  },
+  {
+    "pinyin": "tai hao le",
+    "text": "太好了",
+    "weight": 1700
+  },
+  {
+    "pinyin": "dui",
+    "text": "对",
+    "weight": 1200
+  },
+  {
+    "pinyin": "dui bu qi",
+    "text": "对不起",
+    "weight": 1600
+  },
+  {
+    "pinyin": "dui de",
+    "text": "对的",
+    "weight": 1400
+  },
+  {
+    "pinyin": "ma",
+    "text": "吗",
+    "weight": 1200
+  },
+  {
+    "pinyin": "ma",
+    "text": "妈",
+    "weight": 1000
+  },
+  {
+    "pinyin": "ne",
+    "text": "呢",
+    "weight": 1200
+  },
+  {
+    "pinyin": "a",
+    "text": "啊",
+    "weight": 1200
+  },
+  {
+    "pinyin": "o",
+    "text": "哦",
+    "weight": 1100
+  },
+  {
+    "pinyin": "en",
+    "text": "嗯",
+    "weight": 1200
+  },
+  {
+    "pinyin": "ha ha",
+    "text": "哈哈",
+    "weight": 1600
+  },
+  {
+    "pinyin": "ha ha ha",
+    "text": "哈哈哈",
+    "weight": 1700
+  },
+  {
+    "pinyin": "hei hei",
+    "text": "嘿嘿",
+    "weight": 1300
+  },
+  {
+    "pinyin": "lv",
+    "text": "绿",
+    "weight": 1100
+  },
+  {
+    "pinyin": "lv",
+    "text": "旅",
+    "weight": 1000
+  },
+  {
+    "pinyin": "lv se",
+    "text": "绿色",
+    "weight": 1500
+  },
+  {
+    "pinyin": "lv xing",
+    "text": "旅行",
+    "weight": 1400
+  },
+  {
+    "pinyin": "nv",
+    "text": "女",
+    "weight": 1100
+  },
+  {
+    "pinyin": "nv hai",
+    "text": "女孩",
+    "weight": 1400
+  },
+  {
+    "pinyin": "yue",
+    "text": "月",
+    "weight": 1200
+  },
+  {
+    "pinyin": "yue",
+    "text": "越",
+    "weight": 1000
+  },
+  {
+    "pinyin": "yue liang",
+    "text": "月亮",
+    "weight": 1400
+  },
+  {
+    "pinyin": "xing",
+    "text": "星",
+    "weight": 1100
+  },
+  {
+    "pinyin": "xing",
+    "text": "行",
+    "weight": 1000
+  },
+  {
+    "pinyin": "xing kong",
+    "text": "星空",
+    "weight": 1400
+  },
+  {
+    "pinyin": "xing qi",
+    "text": "星期",
+    "weight": 1400
+  },
+  {
+    "pinyin": "zhou mo",
+    "text": "周末",
+    "weight": 1600
+  },
+  {
+    "pinyin": "zhou mo kuai le",
+    "text": "周末快乐",
+    "weight": 1700
+  },
+  {
+    "pinyin": "chu",
+    "text": "出",
+    "weight": 1100
+  },
+  {
+    "pinyin": "chu",
+    "text": "初",
+    "weight": 1000
+  },
+  {
+    "pinyin": "chu fa",
+    "text": "出发",
+    "weight": 1400
+  },
+  {
+    "pinyin": "chuang",
+    "text": "窗",
+    "weight": 1100
+  },
+  {
+    "pinyin": "chuang",
+    "text": "创",
+    "weight": 1000
+  },
+  {
+    "pinyin": "chuang zuo",
+    "text": "创作",
+    "weight": 1400
+  },
+  {
+    "pinyin": "ling gan",
+    "text": "灵感",
+    "weight": 1500
+  },
+  {
+    "pinyin": "ri",
+    "text": "日",
+    "weight": 1100
+  },
+  {
+    "pinyin": "ri chang",
+    "text": "日常",
+    "weight": 1500
+  },
+  {
+    "pinyin": "ri zi",
+    "text": "日子",
+    "weight": 1400
+  },
+  {
+    "pinyin": "feng",
+    "text": "风",
+    "weight": 1100
+  },
+  {
+    "pinyin": "feng",
+    "text": "封",
+    "weight": 900
+  },
+  {
+    "pinyin": "feng jing",
+    "text": "风景",
+    "weight": 1500
+  },
+  {
+    "pinyin": "man",
+    "text": "慢",
+    "weight": 1100
+  },
+  {
+    "pinyin": "man",
+    "text": "满",
+    "weight": 1000
+  },
+  {
+    "pinyin": "man man",
+    "text": "慢慢",
+    "weight": 1400
+  },
+  {
+    "pinyin": "gan",
+    "text": "感",
+    "weight": 1100
+  },
+  {
+    "pinyin": "gan",
+    "text": "干",
+    "weight": 1000
+  },
+  {
+    "pinyin": "gan xie",
+    "text": "感谢",
+    "weight": 1600
+  },
+  {
+    "pinyin": "gan jue",
+    "text": "感觉",
+    "weight": 1500
+  },
+  {
+    "pinyin": "hen gao xing ren shi ni",
+    "text": "很高兴认识你",
+    "weight": 1800
+  },
+  {
+    "pinyin": "ming tian jian",
+    "text": "明天见",
+    "weight": 1600
+  },
+  {
+    "pinyin": "xia ci jian",
+    "text": "下次见",
+    "weight": 1500
+  },
+  {
+    "pinyin": "hui tou jian",
+    "text": "回头见",
+    "weight": 1500
+  },
+  {
+    "pinyin": "bu jian bu san",
+    "text": "不见不散",
+    "weight": 1500
+  },
+  {
+    "pinyin": "xin de yi tian",
+    "text": "新的一天",
+    "weight": 1400
+  },
+  {
+    "pinyin": "bao chi re ai",
+    "text": "保持热爱",
+    "weight": 1500
+  },
+  {
+    "pinyin": "re ai sheng huo",
+    "text": "热爱生活",
+    "weight": 1600
+  }
+]

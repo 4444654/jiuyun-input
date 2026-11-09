@@ -1,0 +1,26 @@
+# Merge into squirrel.custom.yaml. Colors use sRGB BGR values.
+patch:
+  style/color_scheme: jiuyun
+  style/candidate_list_layout: linear
+  style/text_orientation: horizontal
+  style/inline_preedit: false
+  style/font_face: PingFangSC-Regular
+  style/font_point: 15
+  style/corner_radius: 9
+  style/border_width: 1
+  style/border_height: 1
+  preset_color_schemes/jiuyun:
+    name: 玖云 · 浅草
+    author: Jiuyun contributors
+    color_space: srgb
+    back_color: 0xffffff
+    border_color: 0xe6ece9
+    text_color: 0x60744f
+    candidate_text_color: 0x2e3527
+    comment_text_color: 0x8d938b
+    label_color: 0x8d938b
+    hilited_text_color: 0x60744f
+    hilited_back_color: 0xedf3ed
+    hilited_candidate_text_color: 0x60744f
+    hilited_candidate_back_color: 0xedf3ed
+    hilited_candidate_label_color: 0x60744f

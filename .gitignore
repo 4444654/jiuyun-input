@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+.idea/
+.gradle/
+local.properties
+**/build/
+**/*.xcodeproj/
+DerivedData/
+*.apk
+*.aab

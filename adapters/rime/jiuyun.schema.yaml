@@ -1,0 +1,47 @@
+# Jiuyun Input, MIT License. No external dictionary required.
+schema:
+  schema_id: jiuyun
+  name: 玖云拼音
+  version: '0.1.0'
+  author: [Jiuyun contributors]
+  description: 本地拼音原型，使用项目原创基础词库
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [中文, English]
+  - name: full_shape
+    states: [半角, 全角]
+  - name: ascii_punct
+    states: [中文标点, 英文标点]
+engine:
+  processors: [ascii_composer, recognizer, key_binder, speller, punctuator, selector, navigator, express_editor]
+  segmentors: [ascii_segmentor, matcher, abc_segmentor, punct_segmentor, fallback_segmentor]
+  translators: [punct_translator, script_translator]
+  filters: [uniquifier]
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyz
+  delimiter: " '"
+  algebra:
+    - abbrev/^([a-z]).+$/$1/
+translator:
+  dictionary: jiuyun
+  enable_user_dict: true
+  enable_sentence: true
+  enable_completion: true
+  spelling_hints: 8
+menu:
+  page_size: 5
+punctuator:
+  import_preset: default
+recognizer:
+  import_preset: default
+key_binder:
+  import_preset: default
+  bindings:
+    - { when: has_menu, accept: minus, send: Page_Up }
+    - { when: has_menu, accept: equal, send: Page_Down }
+ascii_composer:
+  good_old_caps_lock: true
+  switch_key:
+    Shift_L: commit_code
+    Shift_R: commit_code

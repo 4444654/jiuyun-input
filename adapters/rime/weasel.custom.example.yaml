@@ -1,0 +1,25 @@
+# Merge into weasel.custom.yaml, then redeploy. Colors use BGR format.
+patch:
+  style/color_scheme: jiuyun
+  style/horizontal: true
+  style/inline_preedit: false
+  style/font_face: Microsoft YaHei
+  style/font_point: 13
+  style/layout/border_width: 1
+  style/layout/corner_radius: 9
+  style/layout/margin_x: 12
+  style/layout/margin_y: 9
+  preset_color_schemes/jiuyun:
+    name: 玖云 · 浅草
+    author: Jiuyun contributors
+    back_color: 0xffffff
+    border_color: 0xe6ece9
+    text_color: 0x60744f
+    candidate_text_color: 0x2e3527
+    comment_text_color: 0x8d938b
+    label_color: 0x8d938b
+    hilited_text_color: 0x60744f
+    hilited_back_color: 0xedf3ed
+    hilited_candidate_text_color: 0x60744f
+    hilited_candidate_back_color: 0xedf3ed
+    hilited_label_color: 0x60744f
